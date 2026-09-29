@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headings">
+            <h2>Generate a highly randomized password effortlessly.</h2>
+            <p>Adjust your preferences and create a unique credential built for better digital security.</p>
+        </div>
+        <div class="password-area">
+            <input type="text" id="password" readonly>
+            <img src="create.svg" alt="" srcset="" id="create">
+            <button id="copy">Copy password</button>
+        </div>
+        <div class="green">
+        <div id="slider-box">
+            <div id="passlength">Password Length <span id="length">8</span></div>
+            <input type="range" name="" id="slider" min="4" max="25" value="8">
+        </div>
+        <div class="conditions">
+            <div class="char">Charactor used</div>
+            <div class="inputs">
+            <input type="checkbox" name="UpperCase" id="upperCheck" checked> <span>Uppercase</span>
+            <input type="checkbox" name="LowerCase" id="lowerCheck" checked> <span>LowerCase</span>
+            <input type="checkbox" name="Numbers" id="numbersCheck" checked> <span>Numbers</span>
+            <input type="checkbox" name="Symbols" id="symbolsCheck" checked> <span>Symbols</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
