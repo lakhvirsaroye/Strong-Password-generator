@@ -16,7 +16,7 @@ let Numbers = "1234567890";
 let Symbols = "!@#$%^&*()_+-=[]{}|;:',.<>?/`~";
 
 
-let L = 8;
+let L = 12;
 
 slider.addEventListener('input', ()=>{
     length.textContent = slider.value;
